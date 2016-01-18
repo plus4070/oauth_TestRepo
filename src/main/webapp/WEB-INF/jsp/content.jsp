@@ -13,7 +13,7 @@
 
 	<div id="content-wrapper">
 		<div id="content">
-			this is content page
+			<p>this is content page</p>
 		</div>
 	</div>
 
