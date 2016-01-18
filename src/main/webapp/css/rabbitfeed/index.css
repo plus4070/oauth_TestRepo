@@ -1,0 +1,55 @@
+body {
+	margin: 0 auto;
+	max-width: 960px;
+	padding: 0;
+	width: 90%;
+}
+#header {
+	background: white;
+	height: 100px;
+	margin-bottom: 10px;
+	width: 100%;
+	border-bottom: 1px #32cda0 solid;
+}
+#btn-login{
+	float: right;
+	margin-top: 30px;
+}
+#content-wrapper {
+	background: white;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+#content {
+	float: left;
+	margin-right: -300px;
+	width: 100%;
+}
+#section {
+	padding-bottom: 20px;
+}
+#footer {
+	background: grey;
+	height: 100px;
+	width: 100%;
+}
+h3 {
+	font-weight: bold;
+	line-height: 40px;
+	margin-left: 20px;
+}
+p {
+	margin: 0 20px;
+}
+
+.description {
+	color: #000;
+}
+
+.posts{
+	cursor: pointer;
+}
+
+.login-sns-btn{
+
+}
