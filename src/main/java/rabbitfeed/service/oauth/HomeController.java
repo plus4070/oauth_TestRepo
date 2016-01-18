@@ -41,4 +41,9 @@ public class HomeController {
 		return "index";
 	}
 	
+	@RequestMapping(value="/content.do")
+	public String viewContent(){
+		return "content";
+	}
+	
 }
