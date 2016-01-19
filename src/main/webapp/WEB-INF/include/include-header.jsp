@@ -2,8 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script
-  src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
 <script>
   //검색창에서 엔터키 누를경우
   $(function() {
@@ -48,8 +47,24 @@
 </head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+
+<!-- bootstrap -->
+<link rel="stylesheet" type="text/css"
+  href="<c:url value='/css/bootstrap/bootstrap.min.css'/>" />
+
+<!-- jQuery -->
+<script
+  src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="<c:url value='/js/common.js'/>" charset="utf-8"></script>
+<script src="<c:url value='/js/bootstrap.min.js'/>" charset="utf-8"></script>
+
 <title>RabbitFeed</title>
 <body>
+  <c:url value="/showMessage.html" var="messageUrl" />
+  <a href="${messageUrl}">Click to enter</a>
   <header id="header">
     <form>
       <div class="description">
