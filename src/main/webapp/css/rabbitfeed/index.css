@@ -13,7 +13,9 @@ body {
 }
 #btn-login{
 	float: right;
-	margin-top: 30px;
+	margin-top: 25px;
+	height: 36px;
+	padding-top: 5px;
 }
 #content-wrapper {
 	background: white;
