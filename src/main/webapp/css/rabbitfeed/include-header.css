@@ -1,0 +1,14 @@
+.bar-search {
+  width: 150px;
+  float: right;
+  margin-right: 8px;
+  margin-top: -8px;
+}
+
+.btn-search {
+  margin-top: 25px;
+  float: right;
+  width: 100px;
+  height: 36px;
+  margin-right: 15px;
+}
